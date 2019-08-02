@@ -439,3 +439,4 @@ lulc <- app(classified, fun = which.max)
 lulcc <- as.factor(lulc)
 levels(lulcc) <- as.character(classdf$classnames)
 plot(lulcc)
+#Very Good training 
